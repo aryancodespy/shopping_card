@@ -1,5 +1,5 @@
 function cardGenerator() {
-    const userName = prompt("What's your name?");
+    const userName = prompt("What's your name?").toUpperCase();
     if(userName) {
         document.getElementById("name").innerHTML = userName;
 
