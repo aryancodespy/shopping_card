@@ -35,10 +35,31 @@
     
 }
 
-.card-title, .card-number {
+.card-title{
     text-align: left;
     font-size: 12px;
     font-weight: normal;
     font-family: 'Courier New', Courier, monospace;
     padding: 5px 20px;
+}
+
+.card-number {
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 4px;
+    padding: 5px 20px;
+    text-align: left;
+
+    
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+    padding: 5px 20px;
+    font-weight: 500;
+    font-size: 12px;
+    font-family: 'Courier New', Courier, monospace;
 }
