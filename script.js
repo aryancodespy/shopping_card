@@ -19,3 +19,5 @@ function cardGenerator() {
         alert("Please enter your name and try again.");
     }
 }
+
+cardGenerator();
