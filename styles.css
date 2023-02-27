@@ -1,6 +1,11 @@
+body {
+    background: linear-gradient(120deg, rgb(20, 20, 255) , rgb(107, 140, 240) , rgb(233, 96, 233) );
+    background-attachment: fixed;
+    color: #fff;
+}
+
 .title {
     text-align: center;
-    color: #000;
 }
 
 .card{
